@@ -27,6 +27,19 @@ int main()
     case 1:
         printf("Starting the quiz...\n");
         
+        
+        break;
+    case 2:
+        printf("Instructions:\n");
+        printf("1. You will be asked a series of questions about Stranger Things.\n");
+        printf("2. Choose the correct answer from the given options.\n");
+        printf("3. Your score will be displayed at the end of the quiz.\n");
+        break;
+    case 3:
+        printf("Exiting the game...\n");
+        break;
+    default:
+        printf("Invalid option. Please try again.\n");
         break;
    }
 
